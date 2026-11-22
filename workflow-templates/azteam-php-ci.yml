@@ -1,0 +1,39 @@
+name: PHP CI
+
+on:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+    branches: [ $default-branch ]
+
+permissions:
+  contents: read
+
+jobs:
+  php:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        php-version: ['8.1', '8.2', '8.3']
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up PHP ${{ matrix.php-version }}
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php-version }}
+          tools: composer:v2
+
+      - name: Validate composer.json
+        if: hashFiles('composer.json') != ''
+        run: composer validate --no-check-publish
+
+      - name: Install dependencies
+        if: hashFiles('composer.json') != ''
+        run: composer install --no-interaction --prefer-dist --no-progress
+
+      - name: PHP syntax check
+        run: find . -type f -name '*.php' -not -path './vendor/*' -print0 | xargs -0 -n1 php -l

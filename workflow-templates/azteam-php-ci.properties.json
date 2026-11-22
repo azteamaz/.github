@@ -1,0 +1,7 @@
+{
+  "name": "AzTeam PHP CI",
+  "description": "Validate Composer files and check PHP syntax on several PHP versions.",
+  "iconName": "octicon workflow",
+  "categories": ["PHP", "Composer"],
+  "filePatterns": ["composer.json$", ".*\\.php$"]
+}
