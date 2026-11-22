@@ -1,0 +1,7 @@
+{
+  "name": "AzTeam Node.js CI",
+  "description": "Install, lint, test and build a Node.js or Next.js project.",
+  "iconName": "octicon workflow",
+  "categories": ["JavaScript", "TypeScript", "npm"],
+  "filePatterns": ["package.json$"]
+}
