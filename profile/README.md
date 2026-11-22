@@ -1,5 +1,5 @@
  <div align="center">
-  <img src="./assets/banner.png" width="100%" alt="AzTeam — Technology. Innovation. Development.">
+  <img src="./assets/banner.jpg" width="100%" alt="AzTeam — Technology. Innovation. Development.">
 </div>
 
 <h1 align="center">AzTeam</h1>
