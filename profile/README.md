@@ -1,53 +1,58 @@
  <div align="center">
+  <img src="./assets/banner.png" width="100%" alt="AzTeam — Technology. Innovation. Development.">
+</div>
 
-# AzTeam
+<h1 align="center">AzTeam</h1>
 
-### Technology. Innovation. Development.
+<p align="center">
+  <strong>Technology. Innovation. Development.</strong>
+</p>
 
-**Building Digital Experiences.**
+<p align="center">
+  Building digital experiences, reliable infrastructure and practical technology solutions.
+</p>
 
-[Website](https://azteam.az) · [Contact](https://azteam.az/elaqe)
+<p align="center">
+  <a href="https://azteam.az">Website</a> ·
+  <a href="https://azteam.az/elaqe">Contact</a> ·
+  <a href="https://github.com/azteamaz">GitHub</a>
+</p>
 
 ---
 
-</div>
+## About AzTeam
 
-## About Us
+**AzTeam** is a technology brand focused on web development, digital platforms, hosting infrastructure and software solutions.
 
-AzTeam is a technology brand focused on developing digital solutions, web platforms, hosting infrastructure and innovative online services.
+We work to make technology more accessible, reliable and useful through practical digital products and services.
 
-We bring technology and ideas together to build reliable, accessible and practical digital experiences.
+## What We Do
 
-## Our Focus
+- **Web Development** — Modern websites and web-based applications.
+- **Hosting & Infrastructure** — Hosting services, servers and infrastructure solutions.
+- **Software Development** — Digital products and custom software solutions.
+- **Technology Projects** — Research, experimentation and development of new ideas.
 
-- **Web Development** — Modern websites, web applications and digital platforms.
-- **Hosting & Infrastructure** — Hosting, server infrastructure and technical solutions.
-- **Software Development** — Software products, tools and custom solutions.
-- **Digital Innovation** — New ideas, experiments and technology-driven projects.
-- **Open Source** — Sharing useful tools, knowledge and resources with the developer community.
+## Our GitHub
 
-## Our Projects
+This organization is the official GitHub home of AzTeam.
 
-Explore our repositories to discover AzTeam projects, development resources and open-source contributions.
+Here you can find:
 
-## Our Principles
+- Open-source projects and public repositories.
+- Development tools and resources.
+- Documentation and technical examples.
+- Projects and experiments from the AzTeam ecosystem.
 
-- Reliability
-- Innovation
-- Quality
-- Simplicity
-- Continuous Improvement
+## Our Vision
 
-## Connect With Us
-
-- Website: https://azteam.az
-- Contact: https://azteam.az/elaqe
+To build useful technology, develop reliable digital solutions and contribute to the technology community.
 
 ---
 
-<div align="center">
-
-**AzTeam**
-*Technology for a connected world.*
-
-</div>
+<p align="center">
+  <strong>AzTeam</strong><br>
+  Technology. Innovation. Development.
+  <br><br>
+  <a href="https://azteam.az">azteam.az</a>
+</p>
